@@ -1,0 +1,13 @@
+C:\Code\VS Code\SimpleNetwork\bin\Debug\netcoreapp3.1\SimpleNetwork.exe
+C:\Code\VS Code\SimpleNetwork\bin\Debug\netcoreapp3.1\SimpleNetwork.deps.json
+C:\Code\VS Code\SimpleNetwork\bin\Debug\netcoreapp3.1\SimpleNetwork.runtimeconfig.json
+C:\Code\VS Code\SimpleNetwork\bin\Debug\netcoreapp3.1\SimpleNetwork.runtimeconfig.dev.json
+C:\Code\VS Code\SimpleNetwork\bin\Debug\netcoreapp3.1\SimpleNetwork.dll
+C:\Code\VS Code\SimpleNetwork\bin\Debug\netcoreapp3.1\SimpleNetwork.pdb
+C:\Code\VS Code\SimpleNetwork\obj\Debug\netcoreapp3.1\SimpleNetwork.csprojAssemblyReference.cache
+C:\Code\VS Code\SimpleNetwork\obj\Debug\netcoreapp3.1\SimpleNetwork.AssemblyInfoInputs.cache
+C:\Code\VS Code\SimpleNetwork\obj\Debug\netcoreapp3.1\SimpleNetwork.AssemblyInfo.cs
+C:\Code\VS Code\SimpleNetwork\obj\Debug\netcoreapp3.1\SimpleNetwork.csproj.CoreCompileInputs.cache
+C:\Code\VS Code\SimpleNetwork\obj\Debug\netcoreapp3.1\SimpleNetwork.dll
+C:\Code\VS Code\SimpleNetwork\obj\Debug\netcoreapp3.1\SimpleNetwork.pdb
+C:\Code\VS Code\SimpleNetwork\obj\Debug\netcoreapp3.1\SimpleNetwork.genruntimeconfig.cache
