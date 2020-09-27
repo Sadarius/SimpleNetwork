@@ -1,1 +1,1 @@
-# SimpleNetwork not much time on Thursday :S
+# SimpleNetwork, I really need to set up my gitignore -.-*
