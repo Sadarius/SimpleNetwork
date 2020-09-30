@@ -1,1 +1,1 @@
-# SimpleNetwork, I really need to set up my gitignore -.-*
+# SimpleNetwork, Ich habe eine Idee wie ich meinen Fortschritt schneller ausweite!
