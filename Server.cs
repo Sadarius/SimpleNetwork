@@ -25,22 +25,19 @@ namespace SimpleNetwork
             Console.WriteLine("set up server");
             serverSocket.Bind(new IPEndPoint(IPAddress.Any, port)); // change so each client socket gets his individual server socket
             serverSocket.Listen(0);
-            serverSocket.BeginConnect(null, null, null); // check how I manage to let them exchange data after they binding the sockets togther
-                                                         // investigate the different socket. ... what they do and need to work
-                                                         // check into AsyncCallback
+            serverSocket.BeginAccept(AcceptCallBack, null);
+
         }
 
-        private static void ConnectSockets(IAsyncResult resultasync)
+        private static void AcceptCallBack(IAsyncResult AR)
         {
             Socket socket;
-
-            /*
-            socket = serverSocket.EndAccept(resultasync);
-            socket.BeginReceive
-            socket.BeginConnect
-            socket.BeginSend
-            socket.Close
-            */
+            socket = serverSocket.EndAccept(AR);
+            clientSockets.Add(socket);
+            //socket.BeginReceive(buffer, buffer_size, SocketFlags.Multicast, null, socket);
+            serverSocket.BeginAccept(AcceptCallBack, socket);
+            
         }
+        
     }
 }
